@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The purpose of this file is to disable Android validation in IntelliJ / Android Studio for the desktop module to prevent unnecessary error markings when trying to use non Android Java stuff.  -->
+<lint>
+    <issue id="all" severity="ignore" />
+    <!-- id="NewApi" is enough, but most the lints are irrelevant to normal Java projects when the Android project doesn't depend on those. It may also speed up builds, but didn't test that. -->
+</lint>
